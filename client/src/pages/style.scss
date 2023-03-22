@@ -1,0 +1,43 @@
+.form-container{
+    height: 100vh;
+    background: url('images/58.-Polution_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo{
+        img{
+            width: 280px;
+        }
+    }
+    .button-google{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-top: 15px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.173);
+        padding: 0px 8px;
+        cursor: pointer;
+        gap: 8px;
+        img{
+            width: 20px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    .form-wrapper{
+        // background-color: rgba(255, 255, 255, 0.453);
+        padding: 20px 60px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
